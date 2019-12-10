@@ -1,0 +1,74 @@
+[
+    {
+        "index" : 1,
+        "given" : {"Alarm" : "False"},
+        "tofind" : {"MaryCalls" : "True"},
+        "answer" : 0.99
+    },
+    {
+        "index" : 2,
+        "given" : {"Burglary": "False", "Earthquake": "True"},
+        "tofind" : {"Alarm": "False"},
+        "answer" : 0.71
+    },
+    {
+        "index" : 3,
+        "given" : {"JohnCalls": "False", "MaryCalls": "True"},
+        "tofind" : {"Alarm": "True"},
+        "answer" : 0.108
+    },
+    {
+        "index" : 4,
+        "given" : {"JohnCalls": "True", "MaryCalls": "True"},
+        "tofind" : {"Burglary": "True"},
+        "answer" : 0.557
+    },
+    {
+        "index" : 5,
+        "given" : {"JohnCalls": "False", "Burglary": "True"},
+        "tofind" : {"Alarm": "True"},
+        "answer" : 0.623
+    },
+    {
+        "index" : 6,
+        "given" : {"JohnCalls": "False", "MaryCalls": "True", "Burglary": "True"},
+        "tofind" : {"Alarm": "True"},
+        "answer" : 0.991
+    },
+    {
+        "index" : 7,
+        "given" : {"Burglary": "False", "Earthquake": "True"},
+        "tofind" : {"JohnCalls": "False", "MaryCalls": "False"},
+        "answer" : 0.556
+    },
+    {
+        "index" : 8,
+        "given" : {"Alarm": "False", "Earthquake": "True"},
+        "tofind" : {"JohnCalls": "False"},
+        "answer" : 0.95
+    },
+    {
+        "index" : 9,
+        "given" : {"JohnCalls": "False", "Earthquake": "True"},
+        "tofind" : {"Alarm": "False"},
+        "answer" : 0.958
+    },
+    {
+        "index" : 10,
+        "given" : {"MaryCalls": "False", "Earthquake": "True"},
+        "tofind" : {"Alarm": "False"},
+        "answer" : 0.887
+    },
+    {
+        "index" : 11,
+        "given" : {"Burglary": "True", "Earthquake": "True"},
+        "tofind" : {"MaryCalls": "False", "JohnCalls": "False"},
+        "answer" : 0.047
+    },
+    {
+        "index" : 12,
+        "given" : {"Burglary": "True", "Earthquake": "True", "MaryCalls": "False", "JohnCalls": "False"},
+        "tofind" : {"Alarm": "True"},
+        "answer" : 0.377
+    }
+]
